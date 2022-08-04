@@ -1,3 +1,4 @@
+yarn i
 git submodule update
 cd ./AFFINE
 pnpm i

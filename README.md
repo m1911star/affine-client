@@ -2,6 +2,12 @@
 
 affine-client is a client for [AFFINE](https://github.com/toeverything/AFFiNE) based on [Tauri](https://tauri.app/)
 
+## System Requirements
+
+- [Rust & Cargo](https://www.rust-lang.org/)
+- [pnpm](https://pnpm.io/)
+- [yarn](https://yarnpkg.com/)
+
 ## How to build
 
 ```shell
@@ -14,6 +20,7 @@ Navigate to `affine-client/tauri/target/release/bundle/dmg` for target file
 
 ## Screenshot
 
+![application](./screenshots/application.png)
 ![home](./screenshots/home.png)
 
 ## Limitations
