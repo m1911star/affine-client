@@ -10,13 +10,14 @@ affine-client is a client for [AFFINE](https://github.com/toeverything/AFFiNE) b
 
 ## How to build
 
-```shell
-sh scripts/build.sh
-```
+1. install system requirements
+2. git clone this repo (including submodule): git clone --recurse-submodules git@github.com:m1911star/affine-client.git
+3. cd affine-client
+4. `sh scripts/build.sh`
 
-Navigate to `affine-client/tauri/target/release/bundle/dmg` for target file
+Navigate to `affine-client/tauri/target/release/bundle/` for target file
 
-> It may fail in `Running bundle_dmg.sh`, just retry
+> It may fail when bundling, just retry
 
 ## Screenshot
 
