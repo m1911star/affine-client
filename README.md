@@ -2,13 +2,25 @@
 
 affine-client is a client for [AFFINE](https://github.com/toeverything/AFFiNE) based on [Tauri](https://tauri.app/)
 
-## System Requirements
+## Supported Platforms
+
+- Windows
+- Linux
+- MacOS
+
+## Download
+
+`https://github.com/m1911star/affine-client/releases`
+
+## Build
+
+### System Requirements
 
 - [Rust & Cargo](https://www.rust-lang.org/)
 - [pnpm](https://pnpm.io/)
 - [yarn](https://yarnpkg.com/)
 
-## How to build
+### How to build
 
 1. install system requirements
 2. git clone this repo (including submodule): git clone --recurse-submodules git@github.com:m1911star/affine-client.git
@@ -19,9 +31,8 @@ Navigate to `affine-client/tauri/target/release/bundle/` for target file
 
 > It may fail when bundling, just retry
 
-## Screenshot
+### Screenshot
 
-![application](./screenshots/application.png)
 ![home](./screenshots/home.png)
 
 ## Limitations
@@ -30,5 +41,5 @@ This client is only a wrapper without any native api intergration for now.
 
 ## TODO
 
-- [ ] add build pipeline
+- [x] add build pipeline
 - [ ] speed up build
