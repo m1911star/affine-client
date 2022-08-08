@@ -4,7 +4,7 @@
     "beforeBuildCommand": "yarn build:affine",
     "beforeDevCommand": "yarn dev:affine",
     "devPath": "http://localhost:4200",
-    "distDir": "../AFFINE/dist/apps/ligo-virgo"
+    "distDir": "../affine/dist/apps/ligo-virgo"
   },
   "package": {
     "productName": "Affine",

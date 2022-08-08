@@ -8,8 +8,8 @@
     "tauri": "tauri",
     "dev:client": "yarn tauri dev",
     "build:client": "yarn tauri build",
-    "dev:affine": "cd AFFINE && pnpm start",
-    "build:affine": "cd AFFINE && pnpm build:local"
+    "dev:affine": "cd affine && pnpm start",
+    "build:affine": "cd affine && pnpm build:local"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.5",

@@ -1,6 +1,6 @@
 yarn i
 git submodule update
-cd ./AFFINE
+cd ./affine
 pnpm i
 cd ../tauri
 cargo install --path .

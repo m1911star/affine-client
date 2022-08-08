@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-/AFFINE/dist/*
-/AFFINE/node_modules
+/affine/dist/*
+/affine/node_modules
 # production
 /build
 

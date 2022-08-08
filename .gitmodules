@@ -1,3 +1,3 @@
-[submodule "AFFiNE"]
-	path = AFFiNE
-	url = git@github.com:toeverything/AFFiNE.git
+[submodule "affine"]
+	path = affine
+	url = https://github.com/toeverything/AFFiNE.git
