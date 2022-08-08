@@ -2,7 +2,7 @@ name: "test-on-build"
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   test-tauri:
@@ -30,7 +30,7 @@ jobs:
     - name: install node tools
       run: |
         npm install -g pnpm yarn
-    - name: install app dependencies
+    - name: install app dependencies & build AFFiNE
       run: |
         yarn
         git submodule update --init --recursive
@@ -40,7 +40,6 @@ jobs:
         cd ../tauri
         cargo install --path .
         cd ..
-        yarn run build:client
     - uses: tauri-apps/tauri-action@v0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
