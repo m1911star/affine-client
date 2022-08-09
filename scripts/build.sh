@@ -1,5 +1,5 @@
 yarn
-git submodule update --remote
+git submodule update --init --recursive
 cd ./affine
 pnpm i
 pnpm build:local
