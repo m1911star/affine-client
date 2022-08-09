@@ -1,4 +1,4 @@
 [submodule "affine"]
 	path = affine
 	url = https://github.com/toeverything/AFFiNE.git
-	branch = main
+	branch = master
