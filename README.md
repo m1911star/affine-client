@@ -16,7 +16,7 @@ affine-client is a client for [AFFINE](https://github.com/toeverything/AFFiNE) b
 
 ### System Requirements
 
-- [Rust & Cargo](https://www.rust-lang.org/)
+- [Rust stable & Cargo](https://www.rust-lang.org/)
 - [pnpm](https://pnpm.io/)
 - [yarn](https://yarnpkg.com/)
 

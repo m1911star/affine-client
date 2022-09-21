@@ -61,6 +61,10 @@
         "title": "Affine",
         "width": 800
       }
-    ]
+    ],
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    }
   }
 }
