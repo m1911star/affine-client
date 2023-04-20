@@ -1,5 +1,7 @@
 # Affine Client
 
+> Update: AFFiNE official client is availble to be downloaded, the latest release link is https://github.com/toeverything/AFFiNE/releases
+
 affine-client is a client for [AFFINE](https://github.com/toeverything/AFFiNE) based on [Tauri](https://tauri.app/)
 
 ## Supported Platforms
